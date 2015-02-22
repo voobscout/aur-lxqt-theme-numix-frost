@@ -48,6 +48,6 @@ package() {
 
   install -m 0644 \
           --target-directory=${pkgdir}/usr/share/lxqt/themes/Numix-Frost/lxqt-runner \
-          ${srcdir}/usr/share/lxqt/themes/Numix-Frost/lxqt-runner/*
+          ${srcdir}/Numix-Frost/lxqt-runner/*
 }
 # vim:set ts=2 sw=2 et:
